@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/Logo.jpg" alt="Logo">
+        </div>
+        <div class="heading">
+            <h1>SURVEY FORM</h1>
+        </div>
+    </nav>
+    <hr>
+    <section id="questions">
+        <div class="question">
+            <p>1. Enter your Name!</p>
+            <input type="text" name="Name" id="answerbox">
+        </div>
+        <div class="question">
+            <p>2. Enter your College name!</p>
+            <input type="text" name="College Name" id="answerbox">
+        </div>
+        <div class="question">
+            <p>3. What year of study are you currently in?</p>
+            <select id="Year" name="Year">
+                <option value="">Select</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+            </select>
+        </div>
+        <div class="question">
+            <p>4. What is your current engineering discipline/specialization?</p>
+            <select id="branch" name="branch">
+                <option value="">Select</option>
+                <option value="CSE">CSE</option>
+                <option value="EC">EC</option>
+                <option value="MECH">MECH</option>
+                <option value="CIVIL">CIVIL</option>
+            </select>
+        </div>
+        <div class="question">
+            <p>5. How satisfied are you with the engineering program at your college/university?</p>
+            <input type="radio" name="satisfaction" id="satisfaction1">
+            <label for="satisfaction1">Very satisfied</label>
+            <input type="radio" name="satisfaction" id="satisfaction2">
+            <label for="satisfaction2">Satisfied</label>
+            <input type="radio" name="satisfaction" id="satisfaction3">
+            <label for="satisfaction3">Neutral</label>
+            <input type="radio" name="satisfaction" id="satisfaction4">
+            <label for="satisfaction4">Dissatisfied</label>
+            <input type="radio" name="satisfaction" id="satisfaction5">
+            <label for="satisfaction5">Very dissatisfied</label>
+        </div>
+        <div class="question">
+            <p>6. How would you rate the quality of the faculty members in your engineering department?</p>
+            <input type="radio" name="faculty" id="faculty1">
+            <label for="faculty1">Excellent</label>
+            <input type="radio" name="faculty" id="faculty2">
+            <label for="faculty2">Good</label>
+            <input type="radio" name="faculty" id="faculty3">
+            <label for="faculty3">Average</label>
+            <input type="radio" name="faculty" id="faculty4">
+            <label for="faculty4">Below average</label>
+            <input type="radio" name="faculty" id="faculty5">
+            <label for="faculty5">Poor</label>
+        </div>
+        <div class="question">
+            <p>7. Are you involved in any extracurricular engineering activities (e.g., clubs, competitions)?</p>
+            <input type="radio" name="extracurricular" id="extracurricular1">
+            <label for="extracurricular1">Yes</label>
+            <input type="radio" name="extracurricular" id="extracurricular2">
+            <label for="extracurricular2">No</label>
+        </div>
+        <div class="question">
+            <p>8. Have you had any internship or co-op experiences related to your engineering field?</p>
+            <input type="radio" name="internship" id="internship1">
+            <label for="internship1">Yes</label>
+            <input type="radio" name="internship" id="internship2">
+            <label for="internship2">No</label>
+        </div>
+        <div class="question">
+            <p>9. How well do you feel your engineering program prepares you for a career in the industry?</p>
+            <input type="radio" name="career-preparation" id="career-preparation1">
+            <label for="career-preparation1">Very well</label>
+            <input type="radio" name="career-preparation" id="career-preparation2">
+            <label for="career-preparation2">Well</label>
+            <input type="radio" name="career-preparation" id="career-preparation3">
+            <label for="career-preparation3">Average</label>
+            <input type="radio" name="career-preparation" id="career-preparation4">
+            <label for="career-preparation4">Poorly</label>
+            <input type="radio" name="career-preparation" id="career-preparation5">
+            <label for="career-preparation5">Very poorly</label>
+        </div>
+        <div class="question">
+            <p>10. Are you considering pursuing higher education (e.g., master's, Ph.D.) after completing your engineering degree?</p>
+            <input type="radio" name="higher-education" id="higher-education1">
+            <label for="higher-education1">Yes</label>
+            <input type="radio" name="higher-education" id="higher-education2">
+            <label for="higher-education2">No</label>
+        </div>
+        <div class="question">
+            <p>11. How often do you collaborate with fellow engineering students on projects or assignments?</p>
+            <input type="radio" name="collaboration" id="collaboration1">
+            <label for="collaboration1">Frequently</label>
+            <input type="radio" name="collaboration" id="collaboration2">
+            <label for="collaboration2">Sometimes</label>
+            <input type="radio" name="collaboration" id="collaboration3">
+            <label for="collaboration3">Rarely</label>
+            <input type="radio" name="collaboration" id="collaboration4">
+            <label for="collaboration4">Never</label>
+        </div>
+        <div class="question">
+            <p>12. How would you rate the career services/support provided by your college/university for engineering students?</p>
+            <input type="radio" name="career-services" id="career-services1">
+            <label for="career-services1">Excellent</label>
+            <input type="radio" name="career-services" id="career-services2">
+            <label for="career-services2">Good</label>
+            <input type="radio" name="career-services" id="career-services3">
+            <label for="career-services3">Average</label>
+            <input type="radio" name="career-services" id="career-services4">
+            <label for="career-services4">Below average</label>
+            <input type="radio" name="career-services" id="career-services5">
+            <label for="career-services5">Poor</label>
+        </div>
+        <div class="question">
+            <p>13. How satisfied are you with the infrastructure and facilities available for engineering students on campus?</p>
+            <input type="radio" name="infrastructure" id="infrastructure1">
+            <label for="infrastructure1">Very satisfied</label>
+            <input type="radio" name="infrastructure" id="infrastructure2">
+            <label for="infrastructure2">Satisfied</label>
+            <input type="radio" name="infrastructure" id="infrastructure3">
+            <label for="infrastructure3">Neutral</label>
+            <input type="radio" name="infrastructure" id="infrastructure4">
+            <label for="infrastructure4">Dissatisfied</label>
+            <input type="radio" name="infrastructure" id="infrastructure5">
+            <label for="infrastructure5">Very dissatisfied</label>
+        </div>
+        <div class="question">
+            <p>14. How likely are you to recommend your engineering program at your college/university to others?</p>
+            <input type="radio" name="recommendation" id="recommendation1">
+            <label for="recommendation1">Very likely</label>
+            <input type="radio" name="recommendation" id="recommendation2">
+            <label for="recommendation2">Likely</label>
+            <input type="radio" name="recommendation" id="recommendation3">
+            <label for="recommendation3">Neutral</label>
+            <input type="radio" name="recommendation" id="recommendation4">
+            <label for="recommendation4">Unlikely</label>
+            <input type="radio" name="recommendation" id="recommendation5">
+            <label for="recommendation5">Very unlikely</label>
+        </div>
+        <div class="question">
+            <p>15. Any additional comments or suggestions?</p>
+            <textarea name="comments" id="comments" cols="50" rows="7"></textarea>
+        </div>
+        <div class="question">
+            <input type="submit" value="Submit">
+        </div>
+    </section>
+</body>
+
+</html>

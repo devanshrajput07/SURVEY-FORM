@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+}
+
+#logo img {
+    height: 55px;
+    width: 90px;
+}
+
+#navbar .heading {
+    margin-left: auto;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.8rem;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: red;
+}
+
+#questions {
+    margin: 20px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    margin-bottom: 10px;
+}
+
+.question input[type="text"],
+.question select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.question input[type="radio"] {
+    margin-right: 5px;
+}
+
+.question label {
+    margin-right: 15px;
+}
+
+.question input[type="submit"] {
+    background-color: #c21b1b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 650px;
+}
+
+.question input[type="submit"]:hover {
+    background-color: #1dc051;
+}
